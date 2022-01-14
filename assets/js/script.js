@@ -33,8 +33,10 @@ var createTaskHandler = function (event) {
   // add entire list item to list
   tasksToDoEl.appendChild(listItemEl);
 
-  listItemEl.textContent = taskNameInput;
-  tasksToDoEl.appendChild(listItemEl);
+  // listItemEl.textContent = taskNameInput;
+  // tasksToDoEl.appendChild(listItemEl);
+
+  
 };
 
 formEl.addEventListener("submit", createTaskHandler);
